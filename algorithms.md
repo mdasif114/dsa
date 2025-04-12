@@ -1,3 +1,4 @@
+Algorithm
 - an algorithm is programming language and hardware independent, it can be analyzed using complexity analysis (space/time)
 - a program is an implementation, thus language dependent, it can be executed and the execution-time/memory-usage can be measured
   
