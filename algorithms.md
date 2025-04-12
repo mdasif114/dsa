@@ -1,0 +1,5 @@
+- an algorithm is programming language and hardware independent, it can be analyzed using complexity analysis (space/time)
+- a program is an implementation, thus language dependent, it can be executed and the execution-time/memory-usage can be measured
+- an algorithm often operates on some input and produces some output (however it doesn't have to operate on any inputs, it just has to produce an output, otherwise it is useless)
+- an algorithm must terminate after a finite number of steps (no infinite number of steps)
+- an algorithm must not have any unnecessary steps
