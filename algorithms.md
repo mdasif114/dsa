@@ -15,3 +15,27 @@ How to Analyse an algorithm
 - Power (How much power it is consuming)
 - CPU Registers (In case of developing device drivers & system level programming it is important to consider how many registers it is consuming)
   
+Time Analysis
+- Each single statement in an algorithm takes 1 unit of time.
+- The below program takes 3 units of time -> f(n) = 3
+- In algorithm, we simply measure time based on each statement (not worrying about complexity of the statement at this stage) 
+- Algorithm swap (a,b)
+    {
+        temp = a; -> 1 unit of time
+        a = b;    -> 1 unit of time
+        b = temp; -> 1 unit of time
+    }
+
+Space Analysis
+- Each variable is taken as one word.
+- The below program takes 3 units of time -> s(n) = 3
+- In algorithm, we simply measure space based on each word/variable -> O(1) - it represents constant 
+- Algorithm swap (a,b)
+    {
+        temp = a; -> 1 variable
+        a = b;    -> 1 variable
+        b = temp; -> 1 variable
+    }
+  
+
+  
