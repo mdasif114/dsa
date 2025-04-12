@@ -36,6 +36,8 @@ Space Analysis
         a = b;    -> 1 variable
         b = temp; -> 1 variable
     }
-  
+
+Frequency Count Method
+
 
   
